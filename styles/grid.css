@@ -1,0 +1,469 @@
+.canales-tv{
+    padding: 75px;
+    
+}
+.canales-tv > h1 ,i{
+    display: inline-block;
+    cursor: pointer;
+}
+.canales-tv > i{
+    font-size: 2em;
+    margin-left: 5px;
+}
+
+.flecha{
+    background: rgb(0,179,215);
+    background: linear-gradient(60deg, rgba(0,179,215,1) 0%, rgba(121,9,107,1) 97%, rgba(2,0,36,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+
+
+.canales{
+    background: #f5f5f5;
+    height: auto;
+}
+
+
+.grid{
+    display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(140px,1fr));
+	grid-template-rows: repeat(auto-fit,minmax(50px,1fr));
+	width: 80%;
+	height: auto;
+	margin: auto;
+	text-align: center;
+}
+
+.grid-none{
+    display: none;
+}
+
+.grid div{
+    display: block;
+	color: #000;
+    font-weight: 500;
+    margin: 10px auto;
+}
+
+.canal-img-grid{
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 15%);
+    background: #fafafa;
+    width: 130px;
+    height: 80px;
+}
+
+.can-1{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/417298-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-2{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/486912-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-3{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/499014-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-4{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/420174-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-5{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/415117-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-6{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/522484-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-7{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/612649-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-8{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/482864-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-9{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416973-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-10{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/860932-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-11{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/496848-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-12{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/518551-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-13{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/425558-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-14{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/506425-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-15{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/496852-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-16{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/482894-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-17{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/525389-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-18{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/425505-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-19{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/484379-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-20{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/417298-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-21{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/487014-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-22{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/415115-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-23{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/503287-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-24{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/525477-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-25{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/612836-8c.png) no-repeat;
+    background-size: contain;
+}
+
+.can-26{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/507453-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-27{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/501657-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-28{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/605535-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-29{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/525516-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-30{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/499006-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-31{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416519-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-32{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/525509-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-33{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/486733-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-34{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416532-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-35{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416393-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-36{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/518647-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-37{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/484381-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-38{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/421724-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-39{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416421-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-40{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/421932-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-41{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416425-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-42{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/421749-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-43{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/549335-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-44{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416534-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-45{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/582767-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-46{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416543-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-47{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/531197-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-48{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/422006-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-49{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416551-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-50{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/422008-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-51{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416559-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-52{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416569-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-53{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416571-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-54{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416573-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-55{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416575-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-56{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/582487-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-57{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416579-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-58{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416583-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-59{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/525533-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-60{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/617489-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-61{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416593-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-62{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/425229-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-63{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416603-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-64{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416605-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-65{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416607-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-66{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416611-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-67{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/425243-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-68{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/425245-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-69{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/425255-8c.png) no-repeat;
+    background-size: contain;
+}
+
+.can-70{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416613-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-71{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416615-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-72{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/522142-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-73{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416625-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-74{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416627-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-75{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/525507-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-76{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/425302-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-77{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/505128-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-78{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/425308-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-79{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416643-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-80{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416645-8c.png) no-repeat;
+    background-size: contain;
+}
+
+.can-81{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/543974-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-82{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/543978-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-83{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/604399-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-84{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/903290-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-85{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/425376-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-86{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/425378-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-87{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/531196-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-88{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/554663-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-89{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/554661-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-90{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416567-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-91{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/525495-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-92{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/525568-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-93{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/531193-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-94{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/510580-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-95{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/897993-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-96{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/515636-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-97{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/531194-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-98{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/416387-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-99{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/518698-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-100{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/522531-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-101{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/522528-8c.png) no-repeat;
+    background-size: contain;
+}
+.can-102{
+    background: url(https://imgn.cdn.iutpcdn.com/IMGS/CHANNEL/SUPER_LIGHT/482898-8c.png) no-repeat;
+    background-size: contain;
+}

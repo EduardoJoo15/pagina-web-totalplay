@@ -1,0 +1,470 @@
+:root{
+    --dark: #1e1f28;
+    --grey: #2b303c;
+    --white: #fff;
+    --turquoise: #00c4ff;
+    --marca: #1988ff;
+    --yellow: #f6fe1c;
+    --orange: #fd7e14;
+    --green:  #89d66d;
+    --purple: #cd1cff;
+    --pink: #ff067b;
+    --letter: 'Arimo', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--letter);
+    background: var(--dark);
+    color: var(--white);
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    height: 4em;
+    position: fixed;
+    background: var(--dark);
+    z-index: 5;
+    min-width: 360px;
+    margin-top:0;
+    justify-content: space-evenly;
+}
+
+/*Contenido del logo y texto*/
+.content-title{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.content-img{
+    width: 8em;
+    height: 2em;
+    background: url(https://www.totalplay.com.mx/assets/img/nuevos/totalplay-logoWhite.svg) no-repeat;
+    background-size: contain;
+    margin: 1em 3em;
+}
+
+.texto {
+    margin-left: -4em;
+    padding: 1.3em ;
+}
+
+
+/*listas del menu*/
+.menu{
+    list-style: none;
+    padding-left: 20em;
+    
+    
+}
+.menu > li {
+    display: inline-block;
+
+}
+.menu > li > a{
+    display: block;
+    padding: 1.4em 1em;
+    color: var(--white);
+    text-decoration: none;
+}
+.menu >li>a:hover{
+    color: #B2B1B9;
+    transition: all .4s;
+}
+
+.icon-hamburguesa{
+    display: none;
+}
+
+/*Contenido de imagen header #03001e #7303c0*/
+
+.content-header{
+    height: 100vh;
+    background-image: linear-gradient(90deg, #03001eea 25%,#280441a8 50%, #fdeff900 100%),
+     url(../asset/img/img-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/*Texto de la imagen header*/
+.texto-header{
+    position: absolute;
+    margin-top: 45vh;
+    margin-left: 4em;
+    width: 80vh;
+}
+
+.texto-header h1{
+    font-size: 50px;
+}
+.texto-header h2{
+    padding-top: 20px;
+}
+
+/*----------------------Main-------------------------*/
+
+/*---------------------PAQUETES-----------------------*/
+ .title-section-pack{
+    background: rgb(0,179,215);
+    background: linear-gradient(60deg, rgba(0,179,215,1) 0%, rgba(121,9,107,1) 97%, rgba(2,0,36,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align:center;
+    margin-top: 5.5rem;
+ }
+
+ .title-section-pack h1{
+    font-size: 2em;
+    margin: 20px auto;
+ }
+
+ /*-------------------Section-paquetes--------------------*/
+ .content-paquetes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }
+
+ /*-------------------caja paquetes----------------------*/
+ .box-paquetes{
+    height: 100%;
+    width: 14.5em;
+    background: var(--grey);
+    text-align: center;
+    margin: 50px 10px 0px;
+    border-radius: 20px;
+ }
+
+
+ .box-paquetes > hr{
+    height: 1px;
+    border: 1px solid #515a6e;
+    margin: 0 15px 0 15px;
+ }
+
+ .nombre-paquete p{
+    font-size: 1.5em;
+    font-weight:bolder;
+    padding: 50px 5px 25px 5px;
+ }
+
+
+ .nombre-paquete h1{
+     font-size: 2.8em;
+     font-weight:bolder;
+     padding: 0px 5px 30px 5px;
+ }
+
+ .info-paquete{
+    padding: 20px 5px 20px 5px;
+    font-size: 15px;
+ }
+
+ .tiempo-paquete{
+     height: 30%;
+     width: 90%;
+     border-radius: 20px;
+     margin: auto;
+     border: 3px solid ;
+ }
+
+ .tiempo-paquete h5{
+     padding: 13px 30px 5px 30px;
+     font-size: 30px;
+ }
+
+ .tiempo-paquete h6{
+     font-size: 15px;
+     padding-bottom: 13px;
+ }
+
+ .precio-paquete h6{
+    font-size: 20px;
+    padding: 15px 20px 0px 20px;
+ }
+ .pago{
+     font-size: 15px;
+ }
+
+ .pronto-pago{
+     padding: 25px 0 20px 0;
+     font-size: 20px;
+ }
+
+ /*Texto degradado de cajas paquete*/
+.tx-col1 {
+    background: linear-gradient(90deg, #a5d637,#6bd6a9);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.tx-col2{
+    background: linear-gradient(90deg,#bc4dff,#f500ff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.tx-col3{
+    background: linear-gradient(90deg,#f183ff,#ff0076);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.tx-col4{
+    background: linear-gradient(90deg,#00d3ff,#0075ff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.tx-col5{
+    background: linear-gradient(90deg,#fff503,#ff6c00);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/*border caja children de caja paquetes*/
+.cj-col1{
+    border: 4px solid var(--green);
+}
+.cj-col2{
+    border: 4px solid var(--purple);
+}
+.cj-col3{
+    border: 4px solid var(--pink);
+}
+.cj-col4{
+    border: 4px solid var(--turquoise);
+}
+.cj-col5{
+    border: 4px solid var(--yellow);
+}
+
+/*Color caja children de caja-paquete*/
+.cj-col1 h5{
+    color: var(--green);
+}
+.cj-col2 h5{
+    color: var(--purple);
+}
+.cj-col3 h5{
+    color: var(--pink);
+}
+.cj-col4 h5{
+    color: var(--turquoise);
+}
+.cj-col5 h5{
+    color: var(--yellow);
+}
+
+.linea{
+    height: 1px;
+    width: 80%;
+    border: 1px solid #515a6e;
+    margin: 100px auto;
+}
+
+#internet{
+    margin-bottom: 180px;
+}
+
+.app{
+    display: block;
+    background:#eee;
+    width: 100%;
+    height: auto;
+    color: #000;
+    text-align: center;
+}
+
+.titulo-app{
+    font-weight: 700;
+    font-size: 1.8em;
+    color: #222831;
+    padding-top: 4em;
+    padding-bottom: 1em;
+    min-width: auto;
+}
+
+.eslogan-app>h1{
+    font-size: 3em;
+    font-weight:100;
+    color: #3b4559;
+    min-width: 1em; 
+}
+.eslogan-app span{
+    font-size: 1em;
+    font-weight: 700;
+    color: #222831;
+}
+
+.span-app > span{
+    font-size: 3em;
+    font-weight: 700;
+    color: #222831;
+}
+
+.img-app{
+    margin-top: 1em;
+    margin-bottom: 2.5em;
+}
+
+.img-app img{
+    margin-top: 5em;
+    width: 90%;
+    height: 85%;
+    max-width: 900px;
+    max-height: 880px;
+}
+
+.text-fin p{
+    font-size: 1.3em;
+    font-weight: 100;
+    color: #3b4559;
+}
+
+.link-button{
+    display: inline-block;
+    background: #1988ff;
+    border-radius: 24vw;
+    width: auto;
+    height: auto;
+    margin: 25px auto;
+    padding: 15px 20px;
+}
+
+.link-button a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.telefonia{
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.img-telefonia{
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+.img-telefonia img{
+    width: 80%;
+    height: 65%;
+    max-width: 500px;
+    max-height: 480px;
+}
+
+.texto-header-dos{
+    display: none;
+}
+
+.icon-hamburguer{
+    display: none;
+}
+
+
+@media(max-width: 1120px){
+    .menu{
+        display: none;
+    }
+    .texto-header{
+        display: none;
+    }
+    .texto-header-dos{
+        display: flex;
+        margin: auto;
+        position: absolute;
+        text-align: center;
+        margin-top: 60vh;
+        margin-left: 2em;
+
+    }
+    
+    .icon-hamburguer{
+        display: flex;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .icon-hamburguer i{
+        padding: 20px 15px;
+        font-size: 1.5em;
+        float: right;
+    }
+    .content-header{
+        background-image: linear-gradient(90deg, #03001eea 25%,#280441a8 50%, #fdeff900 100%),
+        url(../asset/img/img-header-movile.jpg);
+    }
+
+/**/
+
+.nav{
+    display: flex;
+    width: 100%;
+    height: 4em;
+    position: fixed;
+    background: var(--dark);
+    z-index: 5;
+    min-width: 360px;
+    margin-top:0;
+    justify-content: space-between;
+}
+
+    .menu{
+        display: flex;      
+        padding: 0;  
+        margin-top: 4em;
+        background: #2C2E43;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        padding-top: 3em;
+        transition: width 3s;
+    }
+    .menu > ul{
+        display: block;
+    }
+    .menu > li {
+        padding-top: .5em;
+    }
+
+    .menu-none{
+        display: none;
+    }
+    
+}
+
+
+
+
+@media(max-width: 355px){
+    .texto{
+        display: none;
+    }
+    .icon-hamburguer{
+        margin-right: 5em;
+    }
+}
+
+@media(max-width:295px){
+    .menu{
+        padding-right: 3em;
+    }
+    .icon-hamburguer{
+        left: -8em;
+    }
+    .content-title{
+        width: 40%;
+    }
+    .content-img {
+        background-size: cover;
+    }
+}
