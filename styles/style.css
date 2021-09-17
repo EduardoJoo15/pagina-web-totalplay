@@ -10,6 +10,7 @@
     --purple: #cd1cff;
     --pink: #ff067b;
     --letter: 'Arimo', sans-serif;
+    --letter-menu: 'Roboto', sans-serif;
 }
 
 *{
@@ -195,8 +196,16 @@ body{
  }
 
  .pronto-pago{
-     padding: 25px 0 20px 0;
-     font-size: 20px;
+     padding: 25px 0 0 0;
+     font-size: 25px;
+ }
+
+ .tecnico{
+    padding: 15px 20px 5px 20px;
+    font-size: .9em;
+ }
+ .prp{
+     font-weight: 700;
  }
 
  /*Texto degradado de cajas paquete*/
@@ -328,10 +337,10 @@ body{
 }
 
 .link-button{
-    display: inline-block;
+    display: block;
     background: #1988ff;
     border-radius: 24vw;
-    width: auto;
+    width: 65%;
     height: auto;
     margin: 25px auto;
     padding: 15px 20px;
@@ -341,6 +350,11 @@ body{
     text-decoration: none;
     font-size: 1.3em;
     color: #fff;
+}
+
+.button2{
+    display: inline-block;
+    width: auto;
 }
 
 .telefonia{
@@ -366,6 +380,19 @@ body{
 
 .icon-hamburguer{
     display: none;
+}
+
+.men{
+    margin-top: -10px;
+}
+
+.iconms{
+    font-size: 22px;
+    padding-right: 5px;
+}
+.wtp{
+    font-size: 25px;
+    padding-right: 5px;
 }
 
 
@@ -427,13 +454,15 @@ body{
         height: 100vh;
         text-align: center;
         padding-top: 3em;
-        transition: width 3s;
     }
+
     .menu > ul{
         display: block;
     }
     .menu > li {
         padding-top: .5em;
+        font-family: var(--letter-menu);
+        font-size: 20px;
     }
 
     .menu-none{
